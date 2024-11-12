@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studio de beleza Erica", "Studio de beleza Erica.csproj", "{AE4096E7-B2DE-410F-9853-D88AC7D280E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C27DF4B-AD6B-4983-8444-2871F4FC21EB} = {4C27DF4B-AD6B-4983-8444-2871F4FC21EB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{4C27DF4B-AD6B-4983-8444-2871F4FC21EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE4096E7-B2DE-410F-9853-D88AC7D280E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4096E7-B2DE-410F-9853-D88AC7D280E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4096E7-B2DE-410F-9853-D88AC7D280E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4096E7-B2DE-410F-9853-D88AC7D280E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C27DF4B-AD6B-4983-8444-2871F4FC21EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C27DF4B-AD6B-4983-8444-2871F4FC21EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C27DF4B-AD6B-4983-8444-2871F4FC21EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C27DF4B-AD6B-4983-8444-2871F4FC21EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E8B042-5F6A-4A99-87FE-0428084F82E4}
+	EndGlobalSection
+EndGlobal
